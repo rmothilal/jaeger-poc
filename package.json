@@ -1,0 +1,27 @@
+{
+  "name": "jaeger-poc",
+  "version": "1.0.0",
+  "description": "Jaeger Node POC",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/inert": "5.2.0",
+    "@hapi/vision": "5.5.2",
+    "@mojaloop/central-services-shared": "^5.2.0",
+    "blipp": "4.0.0",
+    "glob": "^7.1.4",
+    "good": "^8.1.2",
+    "hapi": "18.1.0",
+    "hapi-swagger": "^10.0.2",
+    "jaeger-client": "3.15.0",
+    "opentracing": "0.14.3"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0"
+  }
+}
